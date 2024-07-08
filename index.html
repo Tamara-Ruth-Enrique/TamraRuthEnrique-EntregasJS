@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale">
-    <title>Calculadora De Promedios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedios de Materias</title>
 </head>
 <body>
+    <h1>Calcular Promedios de Materias</h1>
+    <form id="formulario-datos">
+        <div>
+            <label for="matematicas">Matemáticas:</label>
+            <input type="text" id="matematicas" placeholder="Ej: 8,9,6,6,7">
+        </div>
+        <div>
+            <label for="fisica">Física:</label>
+            <input type="text" id="fisica" placeholder="Ej: 8,7,9,6,8">
+        </div>
+        <div>
+            <label for="quimica">Química:</label>
+            <input type="text" id="quimica" placeholder="Ej: 7,6,6,6,7">
+        </div>
+        <button type="submit">Calcular Promedios</button>
+    </form>
+    <h2>Resultados:</h2>
+    <div id="resultados"></div>
+
     <script src="main.js"></script>
 </body>
 </html>
